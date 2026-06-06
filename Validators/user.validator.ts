@@ -26,4 +26,4 @@ export const signUpSchema = z.object({
     .optional(),
 });
 
-export type SignInInput = z.infer<typeof signUpSchema>;
+export type SignUpInput = z.infer<typeof signUpSchema>;
